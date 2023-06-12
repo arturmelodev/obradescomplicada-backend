@@ -6,7 +6,7 @@
   "author": "Higor Silva <higorcds94@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start:dev": "nodemon --watch 'source/' --exec 'ts-node source/index.ts' -e ts"
+    "start:dev": "nodemon --watch 'source/' --exec 'ts-node ./server.ts' -e ts"
   },
   "dependencies": {
     "express": "^4.18.2"
